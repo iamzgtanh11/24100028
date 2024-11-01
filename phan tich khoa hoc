@@ -1,36 +1,57 @@
-Chương 1: Giới thiệu về Công nghệ thông tin
-Nội dung:
-Định nghĩa CNTT và sự phát triển của nó qua các thời kỳ.
-Tầm quan trọng của CNTT trong đời sống xã hội.
-Các ứng dụng CNTT trong các lĩnh vực như y tế, giáo dục, và kinh doanh.
-Mục tiêu: Giúp sinh viên nhận thức được vai trò của CNTT trong xã hội.
-Chương 2: Phần cứng máy tính
-Nội dung:
-Cấu trúc và chức năng của máy tính: CPU, RAM, ổ cứng, bo mạch chủ.
-Thiết bị ngoại vi và cách kết nối với máy tính.
-Nguyên lý hoạt động của các thành phần phần cứng.
-Mục tiêu: Cung cấp kiến thức vững chắc về phần cứng máy tính.
-Chương 3: Phần mềm máy tính
-Nội dung:
-Phân loại phần mềm: phần mềm hệ thống (hệ điều hành) và phần mềm ứng dụng.
-Cách cài đặt và quản lý phần mềm.
-Các phần mềm phổ biến và ứng dụng của chúng trong công việc.
-Mục tiêu: Giúp sinh viên hiểu rõ về phần mềm và cách sử dụng hiệu quả.
-Chương 4: Mạng máy tính
-Nội dung:
-Khái niệm mạng máy tính và các loại mạng (LAN, WAN).
-Cấu trúc mạng: các thiết bị như router, switch, modem.
-Giao thức mạng và cách chúng hoạt động (TCP/IP).
-Mục tiêu: Giúp sinh viên nắm vững cấu trúc và chức năng của mạng máy tính.
-Chương 5: An toàn thông tin
-Nội dung:
-Tầm quan trọng của an toàn thông tin trong công nghệ.
-Các loại mối đe dọa: virus, malware, tấn công mạng.
-Biện pháp bảo vệ thông tin: sử dụng phần mềm diệt virus, tường lửa, mã hóa.
-Mục tiêu: Nâng cao ý thức về an toàn thông tin và các biện pháp bảo vệ.
-Chương 6: Giới thiệu về Git và GitHub
-Nội dung:
-Khái niệm Git và GitHub, lợi ích của việc sử dụng.
-Cách cài đặt Git và cấu hình tài khoản GitHub.
-Các lệnh cơ bản của Git: git init, git add, git commit.
-Mục tiêu: Trang bị cho sinh viên kỹ năng sử dụng Git và GitHub trong quản lý mã nguồn.
+# Định nghĩa nội dung các chương
+content = {
+    "Chương 1": {
+        "Tiêu đề": "Giới thiệu về Công nghệ thông tin",
+        "Nội dung": [
+            "Định nghĩa CNTT và sự phát triển của nó qua các thời kỳ.",
+            "Tầm quan trọng của CNTT trong đời sống xã hội.",
+            "Các ứng dụng CNTT trong các lĩnh vực như y tế, giáo dục, và kinh doanh."
+        ],
+        "Mục tiêu": "Giúp sinh viên nhận thức được vai trò của CNTT trong xã hội."
+    },
+    "Chương 2": {
+        "Tiêu đề": "Phần cứng máy tính",
+        "Nội dung": [
+            "Cấu trúc và chức năng của máy tính: CPU, RAM, ổ cứng, bo mạch chủ.",
+            "Thiết bị ngoại vi và cách kết nối với máy tính.",
+            "Nguyên lý hoạt động của các thành phần phần cứng."
+        ],
+        "Mục tiêu": "Cung cấp kiến thức vững chắc về phần cứng máy tính."
+    },
+    "Chương 3": {
+        "Tiêu đề": "Phần mềm máy tính",
+        "Nội dung": [
+            "Phân loại phần mềm: phần mềm hệ thống (hệ điều hành) và phần mềm ứng dụng.",
+            "Cách cài đặt và quản lý phần mềm.",
+            "Các phần mềm phổ biến và ứng dụng của chúng trong công việc."
+        ],
+        "Mục tiêu": "Giúp sinh viên hiểu rõ về phần mềm và cách sử dụng hiệu quả."
+    },
+    "Chương 4": {
+        "Tiêu đề": "Mạng máy tính",
+        "Nội dung": [
+            "Khái niệm mạng máy tính và các loại mạng (LAN, WAN).",
+            "Cấu trúc mạng: các thiết bị như router, switch, modem.",
+            "Giao thức mạng và cách chúng hoạt động (TCP/IP)."
+        ],
+        "Mục tiêu": "Giúp sinh viên nắm vững cấu trúc và chức năng của mạng máy tính."
+    },
+    "Chương 5": {
+        "Tiêu đề": "An toàn thông tin",
+        "Nội dung": [
+            "Tầm quan trọng của an toàn thông tin trong công nghệ.",
+            "Các loại mối đe dọa: virus, malware, tấn công mạng.",
+            "Biện pháp bảo vệ thông tin: sử dụng phần mềm diệt virus, tường lửa, mã hóa."
+        ],
+        "Mục tiêu": "Nâng cao ý thức về an toàn thông tin và các biện pháp bảo vệ."
+    },
+    "Chương 6": {
+        "Tiêu đề": "Giới thiệu về Git và GitHub",
+        "Nội dung": [
+            "Khái niệm Git và GitHub, lợi ích của việc sử dụng.",
+            "Cách cài đặt Git và cấu hình tài khoản GitHub.",
+            "Các lệnh cơ bản của Git: git init, git add, git commit."
+        ],
+        "Mục tiêu": "Trang bị cho sinh viên kỹ năng sử dụng Git và GitHub trong quản lý mã nguồn."
+    }
+}
